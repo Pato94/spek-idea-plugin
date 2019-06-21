@@ -20,11 +20,11 @@ dependencies {
 
 buildPlugin {
     baseName = ''
-    classifier = 'studio3.3'
+    classifier = 'studio'
 }
 
 patchPluginXml {
-    version = "${project.version}-studio3.3"
+    version = "${project.version}-studio"
     sinceBuild = '182.5107'
-    untilBuild = '182.5107.*'
+    untilBuild = null
 }
